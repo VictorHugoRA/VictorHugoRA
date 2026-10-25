@@ -1,39 +1,83 @@
-# Olá, eu sou o Victor Hugo 👋
+<div align="center">
 
-### Desenvolvedor Python • Django • Automação RPA
+# Victor Hugo
 
-Desenvolvo sistemas internos e automações para simplificar processos, integrar informações e reduzir tarefas repetitivas.
+### Desenvolvedor Backend Python
 
-Minha atuação combina desenvolvimento de intranetes com Python e Django, automação com Power Automate e integração de dados com PostgreSQL.
+**APIs REST · Arquitetura de Software · Integração de Sistemas**
 
-## O que faço
+Desenvolvo aplicações que conectam dados, organizam regras de negócio e simplificam operações.
 
-- **Sistemas internos:** desenvolvimento de aplicações para apoiar rotinas e processos empresariais.
-- **Automação RPA:** criação de fluxos para executar tarefas operacionais e integrar sistemas.
-- **Integração de dados:** consultas SQL, consumo de APIs e processos de ETL.
-- **Melhoria de processos:** transformação de atividades manuais em soluções mais organizadas e eficientes.
+[Projeto em destaque](#projeto-em-destaque) · [Tecnologias](#tecnologias) · [Minha abordagem](#minha-abordagem)
 
-## Tecnologias
-
-| Área | Tecnologias |
-| --- | --- |
-| Desenvolvimento | Python · Django · APIs REST |
-| Dados | PostgreSQL · SQL · ETL |
-| Automação | Power Automate · RPA |
-| Versionamento | Git · GitHub |
-
-## Projeto em destaque
-
-### [SorteLab](https://github.com/VictorHugoRA/SorteLab)
-
-Aplicação para análise estatística de resultados de loterias e organização de combinações.
-
-O projeto reúne backend com Django e Django REST Framework, PostgreSQL, processamento assíncrono com Celery e Redis e frontend com Next.js e TypeScript. Os sorteios são aleatórios; a aplicação não prevê resultados.
-
-## Aprendizado contínuo
-
-Estou aprofundando meus conhecimentos em inteligência artificial aplicada à automação, integração de APIs e desenvolvimento de aplicações SaaS.
+</div>
 
 ---
 
-**Meu foco é construir soluções úteis para os desafios do dia a dia.**
+## Sobre mim
+
+Sou desenvolvedor backend com foco em **Python, Django e construção de APIs**. Trabalho com sistemas internos, intranetes e integração de dados, conectando necessidades do negócio a soluções de software.
+
+Meu interesse por arquitetura orienta a forma como organizo aplicações: responsabilidades claras, regras de negócio bem definidas e componentes que possam evoluir com o projeto. Também desenvolvo automações e processos de ETL para integrar sistemas e reduzir trabalho manual.
+
+## Áreas de atuação
+
+- **Backend e APIs:** desenvolvimento de serviços, endpoints REST e integrações entre aplicações.
+- **Arquitetura de software:** organização modular, separação de responsabilidades e estruturação de regras de negócio.
+- **Dados:** modelagem relacional, consultas SQL e integração de bases com PostgreSQL e ETL.
+- **Processamento assíncrono:** tarefas em segundo plano e rotinas agendadas com Celery e Redis nos meus projetos.
+- **Automação:** integração de processos empresariais com Python, RPA e Power Automate.
+
+## Tecnologias
+
+| Área | Tecnologias e práticas |
+| --- | --- |
+| Backend | **Python · Django · Django REST Framework** |
+| APIs e autenticação | REST · Integração de APIs · JWT |
+| Banco de dados | PostgreSQL · SQL · Django ORM · Migrations |
+| Processamento assíncrono | Celery · Redis |
+| Ambiente e versionamento | Docker · Docker Compose · Git · GitHub |
+| Qualidade | Pytest · Testes de regras de negócio |
+| Dados e automação | ETL · RPA · Power Automate |
+
+## Minha abordagem
+
+**Regras de negócio no centro.** Procuro traduzir os processos da operação em modelos, validações e fluxos claros.
+
+**Arquitetura que acompanha o projeto.** Valorizo módulos com responsabilidades definidas e a separação entre lógica de negócio, APIs e integrações externas.
+
+**Integrações com propósito.** Uso APIs, tarefas assíncronas e rotinas de dados para conectar aplicações e automatizar etapas do trabalho.
+
+**Código que possa evoluir.** Priorizo legibilidade, documentação e testes que ajudem a manter o comportamento esperado conforme a aplicação cresce.
+
+## Projeto em destaque
+
+### [SorteLab — Backend de aplicação SaaS](https://github.com/VictorHugoRA/SorteLab)
+
+Projeto para análise estatística de resultados de loterias e organização de combinações, com backend em **Django e Django REST Framework**.
+
+| Aspecto | Organização do projeto |
+| --- | --- |
+| API | Endpoints versionados e autenticação JWT |
+| Domínios | Apps separados para contas, concursos, estatísticas, estratégias e outros módulos |
+| Regras de cálculo | Engine em Python independente do Django |
+| Integração externa | Importação de resultados por API com tarefas Celery |
+| Persistência | PostgreSQL |
+| Ambiente | Docker Compose com Redis e workers |
+| Testes | Testes do engine com Pytest |
+
+O projeto permite explorar decisões de arquitetura, integração e processamento de dados em uma aplicação completa. A análise estatística não prevê resultados; os sorteios são aleatórios.
+
+[**Explorar o repositório →**](https://github.com/VictorHugoRA/SorteLab)
+
+## Desenvolvimento contínuo
+
+Aprofundo meus conhecimentos em **arquitetura de aplicações backend**, qualidade de APIs e inteligência artificial aplicada à automação, buscando transformar esse aprendizado em soluções práticas.
+
+---
+
+<div align="center">
+
+**Backend bem estruturado para resolver problemas reais.**
+
+</div>
